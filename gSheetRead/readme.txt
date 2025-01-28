@@ -5,4 +5,5 @@ Les instructions données dans cette page de Google Workspace doivent
 sheets/quickstart/index.js que j'ai remplacé par le code ci joint qui
 est fonctionnel et testé pour lire les données d'une feuille de calcul
 qui est un example supporté par Google. Les credentials sont entreposés
-dans le fichier credentials.json dans le meme répertoire que index.js
+dans le fichier credentials.json dans le meme répertoire que index.js 
+Sur GitHub le fichier de credentials est déposé dans le répertoire privé.
