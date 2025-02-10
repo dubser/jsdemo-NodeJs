@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Version de Premiers Pas modifiée pour utilisation avec vite.js
+
+
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#"> <!--Enlever erreur Favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panneau de contrôle</title>
+  <script type="module" crossorigin src="/assets/index-DshkKlvP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-F_R88lQQ.css">
+</head>
+<body>
+    <div class="control-panel">
+        <h2>Panneau de démo des objets</h2>
+        <!-- Panneau de controle,  un div contenant les controles -->
+        <div class="control-item">
+            <label for="slider">Volume</label>
+            <input type="range" id="slider" min="0" max="100" value="50">
+            <span id="sliderValue">50</span>
+        </div>
+        <div class="control-item">
+            <label for="toggle">Mode sombre</label>
+            <input type="checkbox" id="toggle">
+        </div>
+        <div class="control-item">
+            <button id="alertButton">Afficher un message</button>
+        </div>
+
+        <div id="ListBox">
+            <!-- Fenetre d'écriture   -->
+          Texte par défaut du DIV , affichage initial sans Classe.
+       </div>
+
+    <br> Les 2 affichages suivants remplacant celui ci haut  en mode objet utilisanl la classe 
+    dsply de la librairie util.
+  
+
+      <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      <div id="conteneur" >
+        <!-- Fenetre d.écriture globale  -->
+   
+    </div>
+        <!-- Ligne de boutons.  -->
+    <div class="control-item">
+        <button onclick="lister()">Lister</button>
+        <button onclick="clrWin()">ClrWin</button>
+    </div>   
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
+  <div id="conteneur1" >
+      <!-- Fenetre d.écriture globale  -->
+ 
+  </div>
+      <!-- Ligne de boutons.  -->
+  <div class="control-item">
+      <button onclick="lister1()">Lister</button>
+      <button onclick="clrWin1()">ClrWin</button>
+
+  </div>  
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
+A Venir démontrer l'utilitaire getTstamp() aussi intégré a la librairie util.
+
+    </div>
+    
+    <!-- 
+         -->  
+</body>
+</html>
+
